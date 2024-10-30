@@ -1,0 +1,213 @@
+#af-popup-1,
+#af-popup-2,
+#af-popup-3,
+#af-popup-4
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 3000;
+    background: rgba(0,0,0,0.6);
+    display:none;
+}
+
+#af-popup-1 > div,
+#af-popup-2 > div,
+#af-popup-3 > div,
+#af-popup-4 > div
+{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#af-popup-1 > div > div,
+#af-popup-2 > div > div,
+#af-popup-3 > div > div,
+#af-popup-4 > div > div
+{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#af-was {
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px 40px;
+    box-shadow: 0px 3px 20px 0px rgba(0,64,128,0.1);
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+#af-was.inactive {
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+.af-row
+{
+    display: flex;    
+    margin: 15px -15px;    
+}
+
+.af-column
+{
+    padding: 0px 15px;
+    flex: 50%;
+}
+
+#af-yes
+{
+    background: #4bbb8b;
+    margin-right: 10px;
+}
+
+#af-no
+{
+    background: #ed6363;
+}
+
+#af-feedback-form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 15px 30px;
+}
+
+#af-yes,#af-no
+{
+    width: 100px;
+    text-decoration: none;
+    padding: 8px 24px;
+    display: inline-block;
+    padding: 10px 0;
+    border: 0px;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 40px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition:    all 0.1s ease-in-out;
+    -ms-transition:     all 0.1s ease-in-out;
+    -o-transition:      all 0.1s ease-in-out;
+    transition:         all 0.1s ease-in-out;
+}
+
+#af-yes:hover,#af-no:hover
+{
+    opacity: 0.8;
+}
+
+#af-yes.inactive
+{
+    cursor: default;
+    background: #c9cecc;
+
+}
+
+#af-no.inactive {
+    background: #cec8c8;
+    cursor: default;
+}
+
+#af-yes.inactive:hover, #af-no.inactive:hover 
+{
+    opacity: 1;
+}
+
+.af-popup-content
+{
+    background: #fff;
+}
+
+.af-popup-content a
+{
+    text-decoration: none;
+    border: 2px solid transparent !important;
+    box-shadow: none;
+
+}
+
+.af-popup-content h3
+{
+    margin-top: 0px!important;
+    padding-top: 0px!important;
+    font-weight: bold;
+}
+
+.af-response-select
+{
+    padding: 10px;
+    display: block;
+    color: #2584db;
+    border-radius: 5px;
+}
+
+.af-popup-content
+{
+    position:relative;
+}
+
+.af-popup-1-content p
+{
+    margin-bottom: 3px;
+}
+
+.af-close-popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    font-size: 36px;
+    line-height: 0.5;
+    color: #696969;
+}
+
+.af-response-select:hover
+{
+    border: 2px solid #e0e5e6;
+}
+
+.fa-share-button
+{
+    display: inline-block;
+    padding: 7px 30px;
+    border-radius: 30px;
+    color: #fff!important;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.fa-share-button:hover
+{
+    color: #fff!important;
+}
+
+.fa-share-facebook
+{
+    background: #3a5896;
+}
+
+.fa-share-pinterest
+{
+    background: #cc2127;
+}
+
+.fa-share-button span {
+    vertical-align: middle;
+    font-size: 25px;
+    margin-right: 10px;
+    line-height: 0;
+}
+
+.af-poopup-content-3{text-align: center;}
+.af-poopup-content-3 p{text-align: left;}
